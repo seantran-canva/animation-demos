@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animation Demos</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: sans-serif;
+            background: #111;
+            color: #fff;
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        .container {
+            text-align: center;
+            max-width: 800px;
+            width: 100%;
+        }
+        
+        h1 {
+            margin-bottom: 40px;
+            font-size: 2.5em;
+        }
+        
+        .demo-links {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+            align-items: center;
+        }
+        
+        .demo-item {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+            width: 100%;
+            max-width: 600px;
+        }
+        
+        .demo-link {
+            display: inline-block;
+            padding: 15px 30px;
+            background: #4caf50;
+            color: white;
+            text-decoration: none;
+            border-radius: 8px;
+            font-size: 1.2em;
+            transition: background 0.3s ease;
+            white-space: nowrap;
+            min-width: 200px;
+        }
+        
+        .demo-link:hover {
+            background: #45a049;
+        }
+        
+        .description {
+            color: #ccc;
+            font-size: 0.9em;
+            text-align: left;
+            flex: 1;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Animation Demos</h1>
+        <div class="demo-links">
+            <div class="demo-item">
+                <a href="css-animations.html" class="demo-link">CSS Animations</a>
+                <div class="description">Uses CSS @keyframes with Intersection Observer</div>
+            </div>
+            <div class="demo-item">
+                <a href="css-looping-animations.html" class="demo-link">CSS Looping</a>
+                <div class="description">Continuous looping animations with infinite alternate</div>
+            </div>
+            <div class="demo-item">
+                <a href="css-looping-unoptimised-animations.html" class="demo-link">CSS Looping Unoptimised</a>
+                <div class="description">Unoptimised version of CSS looping animations</div>
+            </div>
+            <div class="demo-item">
+                <a href="waapi-animations.html" class="demo-link">WAAPI Animations</a>
+                <div class="description">Uses Web Animations API with Intersection Observer</div>
+            </div>
+            <div class="demo-item">
+                <a href="waapi-looping-animations.html" class="demo-link">WAAPI Looping</a>
+                <div class="description">Continuous looping animations with Web Animations API</div>
+            </div>
+            <div class="demo-item">
+                <a href="waapi-looping-unoptimised-animations.html" class="demo-link">WAAPI Looping Unoptimised</a>
+                <div class="description">Unoptimised version of WAAPI looping animations</div>
+            </div>
+            <div class="demo-item">
+                <a href="gsap-animations.html" class="demo-link">GSAP Animations</a>
+                <div class="description">Uses GSAP with ScrollTrigger plugin</div>
+            </div>
+            <div class="demo-item">
+                <a href="gsap-looping-animations.html" class="demo-link">GSAP Looping</a>
+                <div class="description">Continuous looping animations with GSAP and ScrollTrigger</div>
+            </div>
+            <div class="demo-item">
+                <a href="gsap-looping-unoptimised-animations.html" class="demo-link">GSAP Looping Unoptimised</a>
+                <div class="description">Unoptimised version of GSAP looping animations</div>
+            </div>
+        </div>
+    </div>
+</body>
+</html> 
